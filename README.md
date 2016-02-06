@@ -33,7 +33,7 @@ If you can't explain why your fix works, it is not a valid fix.
 ###Readability
 Code should be written so that it is easy to read.
 
-The easier code is to read, the less difficult it is to maintain.
+The easier code is to read, the less difficult it is to maintain and extend.
 
 A subjective measure of how easily code can be read is called "readability."
 
