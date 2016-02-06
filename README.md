@@ -31,6 +31,9 @@ If you can't explain why your fix works, it is not a valid fix.
 
 ##Writing for the reader
 ###Readability
+> ...a computer language is not just a way of getting a computer to perform operations but rather that it is a novel formal medium for expressing ideas about methodology. Thus, programs must be written for people to read, and only incidentally for machines to execute. -Structure and Interpretation of Computer Programs
+
+ 
 Code should be written so that it is easy to read.
 
 The easier code is to read, the less difficult it is to maintain and extend.
