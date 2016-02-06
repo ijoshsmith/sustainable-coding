@@ -28,3 +28,29 @@ Fix the problem, not a symptom.
 Decide how to fix a bug only once you understand what causes it.
 
 If you can't explain why your fix works, it is not a valid fix.
+
+##Writing for the reader
+###Readability
+Code should be written so that it is easy to read.
+
+The easier code is to read, the less difficult it is to maintain.
+
+A subjective measure of how easily code can be read is called "readability."
+
+Consistently applied code formatting and naming conventions improve readability.
+
+The choice of particular formatting and naming conventions is far less important than their consistent usage.
+
+###Signal-to-noise ratio
+
+![Signal in the noise](/images/signal-to-noise.png)
+
+An empty source code file has no "visual noise."
+
+Every character of text added to a file increases its visual noise.
+
+The developer's intent is a "signal" which someone reading the code discovers in the visual noise.
+
+Maximizing readability involves finding a signal-to-noise "ratio" that conveys your intent, without obscuring it with too little or too much text.
+
+For example, a local variable that is only used in a short block of code should not have a long name. Similarly, the name of a function or class used by other modules should not be terse or abbreviated.
