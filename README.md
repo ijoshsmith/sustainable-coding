@@ -89,3 +89,7 @@ Vague class names, like `SessionManager` or `DataController`, should be avoided 
 Junk drawer classes are large, disjointed, and complicated. This makes them difficult to understand and fix.
 
 As more and more code accumulates in a junk drawer, it becomes difficult to *not* put new code into it, because it contains so many things that need to be referenced.
+
+---
+
+*This is a continual work-in-progress. More to come…*
