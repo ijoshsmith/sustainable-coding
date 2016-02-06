@@ -55,6 +55,8 @@ Maximizing readability involves finding a signal-to-noise "ratio" that conveys y
 
 For example, a local variable that is only used in a short block of code should not have a long name. Similarly, the name of a function or class used by other modules should not be terse or abbreviated.
 
+Another way to improve the signal-to-noise ratio is to ensure that every character of text is necessary. A line of code that is unnecessary, or unnecessarily complicated, increases the amount of visual noise while decreasing the signal strength.
+
 ##Choosing names
 ###Call it what it is
 The name of a thing determines what you think that thing is. 
