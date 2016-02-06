@@ -19,3 +19,12 @@ These definitions provide the raw material for a professional software developer
 **Coding**
 
 I chose the verb *coding* instead of the noun *code* as the second word of the title to emphasize my focus on writing code more than the code that is written. It might be a subtle distinction, but it is an important one.
+
+##Fixing bugs
+Give each bug fix its due diligence, otherwise your fix will likely create more bugs.
+
+Fix the problem, not a symptom.
+
+Decide how to fix a bug only once you understand what causes it.
+
+If you can't explain why your fix works, it is not a valid fix.
