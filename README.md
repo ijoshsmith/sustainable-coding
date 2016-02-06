@@ -54,3 +54,38 @@ The developer's intent is a "signal" which someone reading the code discovers in
 Maximizing readability involves finding a signal-to-noise "ratio" that conveys your intent, without obscuring it with too little or too much text.
 
 For example, a local variable that is only used in a short block of code should not have a long name. Similarly, the name of a function or class used by other modules should not be terse or abbreviated.
+
+##Choosing names
+###Call it what it is
+The name of a thing determines what you think that thing is. 
+
+A poorly chosen name distorts your understanding of what a thing is.
+
+When understanding is distorted by a name, a "mental mapping" is needed to bridge the gap.
+
+Mental mappings increase the reader's cognitive burden, thereby decreasing their ability to effectively work with and improve the codebase.
+
+Rename something if its role/purpose changes. Don't stick with the old name because you happen to know what it currently means. Other developers (including Future You) will need to spend time and energy creating a mental mapping.
+
+###Select your words as carefully as a lawyer
+A name should make it clear what something is or does, not how it is implemented.
+- Prefer: `findHighestPaidEmployee()`
+- Avoid: `selectFirstEmployeeFromListSortedBySalary()`
+
+Specific, accurate names have better explanatory power:
+- Prefer: `authenticateUserIfRequiredAfterProlongedInactivity()`
+- Avoid: `authenticateUserIfRequiredByTheRules()`
+
+Suppose you need to write a method that modifies a customer's `Priority` based on a `Status` field. 
+- Poor name: `makeCustomerPriorityMatchStatus()` 
+- Good name: `adjustCustomerPriorityBasedOnStatus()` 
+- Rationale: The customer's `Priority` and `Status` fields are related but not equivalent or *matching*. Therefore, the verb *match* is inappropriate and misleading.
+
+###Avoid creating junk drawers
+![Junk drawer](images/junk-drawer.png)
+
+Vague class names, like `SessionManager` or `DataController`, should be avoided because such classes tend to become a junk drawer whose existence discourages developers from critically analyzing where to put new code. 
+
+Junk drawer classes are large, disjointed, and complicated. This makes them difficult to understand and fix.
+
+As more and more code accumulates in a junk drawer, it becomes difficult to *not* put new code into them, because they contain so many things that need to be referenced.
