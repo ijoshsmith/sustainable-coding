@@ -81,7 +81,7 @@ Specific, accurate names have better explanatory power:
 Suppose you need to write a method that modifies a customer's `Priority` based on a `Status` field. 
 - Poor name: `makeCustomerPriorityMatchStatus()` 
 - Good name: `adjustCustomerPriorityBasedOnStatus()` 
-- Rationale: The customer's `Priority` and `Status` fields are related but not equivalent or *matching*. Therefore, the verb "match" is inappropriate and misleading.
+- Rationale: The customer's `Priority` and `Status` fields are related but not equivalent or *matching*. Therefore, the word "match" in the first example is inappropriate and misleading.
 
 ###Avoid creating junk drawers
 ![Junk drawer](images/junk-drawer.png)
