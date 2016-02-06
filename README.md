@@ -1,6 +1,6 @@
 # Sustainable Coding
 
-> We are what we repeatedly do. Excellence, then is not an act but a habit. - Aristotle
+> We are what we repeatedly do. Excellence, then, is not an act but a habit. - Aristotle
 
 This document describes my ever-evolving perspective on the strive for excellence as a software developer. Its focus is on the act of writing code, more than code itself. Even though the act of creation and the thing created are intimately related, I consider improvements made in a software developer's mindset to be more important than improvements made in a source code file.
 
