@@ -18,7 +18,7 @@ These definitions provide the raw material for a professional software developer
 
 **Coding**
 
-I chose the verb *coding* instead of the noun *code* as the second word of the title to emphasize my focus on writing code more than the code that is written. It might be a subtle distinction, but it is an important one.
+I chose *coding* instead of *code* as the second word of the title to emphasize my focus on writing code more than the code that is written. It might be a subtle distinction, but it is an important one.
 
 ##Fixing bugs
 Give each bug fix its due diligence, otherwise your fix will likely create more bugs.
@@ -91,6 +91,31 @@ Vague class names, like `SessionManager` or `DataController`, should be avoided 
 Junk drawer classes are large, disjointed, and complicated. This makes them difficult to understand and fix.
 
 As more and more code accumulates in a junk drawer, it becomes difficult to *not* put new code into it, because it contains so many things that need to be referenced.
+
+##Improving code in a business workplace
+> It's easier to ask forgiveness than it is to get permission. - Grace Hopper
+
+Code can, and should, be improved.
+
+Improvements can be categorized as "external" or "internal."
+
+External improvements increase the value of software for users.
+
+Internal improvements increase the livability of a project for developers.
+
+Fixing a bug is a type of external improvement.
+
+Removing knowledge duplication is a type of internal improvement.
+
+In a business workplace, internal improvements sometimes must be made "under the radar" because non-developers seldom appreciate the importance of changes that have no immediate impact on scheduled deliverables. 
+
+As a professional software developer it is your duty to make frequent, minor internal improvements to a codebase, despite the opinions of non-technical managers unqualified to appreciate the psychological benefits such changes can have for developers. 
+
+A professional software developer should not, nor should be required to, ask management for permission to make minor internal improvements. 
+
+On the other hand, it is unprofessional to covertly spend a lot of time making broad, sweeping changes in order to implement an internal improvement. Such changes can introduce unnecessary risk and take too much time away from making business-critical external improvements.
+
+Strike a balance between doing what your employer tells you is necessary and doing what you know is best for your team, based on your expertise as a professional software developer.
 
 ---
 
