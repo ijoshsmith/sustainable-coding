@@ -20,6 +20,19 @@ These definitions provide the raw material for a professional software developer
 
 I chose *coding* instead of *code* as the second word of the title to emphasize my focus on writing code more than the code that is written. It might be a subtle distinction, but it is an important one.
 
+##APE
+When working on something, resist the temptation to jump directly into writing or changing code.
+
+It is important to Assess, Plan, and Execute (APE).
+
+- Assess the requirements, problems, unknowns, etc.
+- Plan how to implement the work that needs to be done, based on your assessment.
+- Execute your plan.
+
+> The first casualty of any battle is the plan of attack. - Cory Doctorow
+
+It's common to go back to assessment or planning as new facts are uncovered.
+
 ##Fixing bugs
 Give each bug fix its due diligence, otherwise your fix will likely create more bugs.
 
