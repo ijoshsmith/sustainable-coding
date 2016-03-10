@@ -92,8 +92,8 @@ Specific, accurate names have better explanatory power:
 - Avoid: `authenticateUserIfRequiredByTheRules()`
 
 Suppose you need to write a method that modifies a customer's `Priority` based on a `Status` field. 
+- Good name: `adjustCustomerPriorityBasedOnStatus()`
 - Poor name: `makeCustomerPriorityMatchStatus()` 
-- Good name: `adjustCustomerPriorityBasedOnStatus()` 
 - Rationale: The customer's `Priority` and `Status` fields are related but not equivalent or *matching*. Therefore, the word "match" in the first example is inappropriate and misleading.
 
 ###Avoid creating junk drawers
