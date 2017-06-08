@@ -20,7 +20,7 @@ These definitions provide the raw material for a professional software developer
 
 I chose *coding* instead of *code* as the second word of the title to emphasize my focus on writing code more than the code that is written. It might be a subtle distinction, but it is an important one.
 
-##APE
+## APE
 When working on something, resist the temptation to jump directly into writing or changing code.
 
 It is important to Assess, Plan, and Execute (APE).
@@ -33,7 +33,7 @@ It is important to Assess, Plan, and Execute (APE).
 
 It's common to go back to assessment or planning as new facts are uncovered.
 
-##Fixing bugs
+## Fixing bugs
 Give each bug fix its due diligence, otherwise your fix will likely create more bugs.
 
 Fix the problem, not a symptom.
@@ -42,8 +42,8 @@ Decide how to fix a bug only once you understand what causes it.
 
 If you can't explain why your fix works, it is not a valid fix.
 
-##Writing for the reader
-###Readability
+## Writing for the reader
+### Readability
 Code should be written so that it is easy to read.
 
 The easier code is to read, the less difficult it is to maintain and extend.
@@ -54,7 +54,7 @@ Consistently applied code formatting and naming conventions improve readability.
 
 The choice of particular formatting and naming conventions is far less important than their consistent usage.
 
-###Signal-to-noise ratio
+### Signal-to-noise ratio
 
 ![Signal in the noise](/images/signal-to-noise.png)
 
@@ -70,8 +70,8 @@ For example, a local variable that is only used in a short block of code should 
 
 Another way to improve the signal-to-noise ratio is to ensure that every character of text is necessary. A line of code that is unnecessary, or unnecessarily complicated, increases the amount of visual noise while decreasing the signal strength.
 
-##Choosing names
-###Call it what it is
+## Choosing names
+### Call it what it is
 The name of a thing determines what you think that thing is. 
 
 A poorly chosen name distorts your understanding of what a thing is.
@@ -82,7 +82,7 @@ Mental mappings increase the reader's cognitive burden, thereby decreasing their
 
 Rename something if its role/purpose changes. Don't stick with the old name because you happen to know what it currently means. Other developers (including Future You) will need to spend time and energy creating a mental mapping.
 
-###Select your words as carefully as a lawyer
+### Select your words as carefully as a lawyer
 A name should make it clear what something is or does, not how it is implemented.
 - Prefer: `findHighestPaidEmployee()`
 - Avoid: `selectFirstEmployeeFromListSortedBySalary()`
@@ -96,7 +96,7 @@ Suppose you need to write a method that modifies a customer's `Priority` based o
 - Poor name: `makeCustomerPriorityMatchStatus()` 
 - Rationale: The customer's `Priority` and `Status` fields are related but not equivalent or *matching*. Therefore, the word "match" in the second example is inappropriate and misleading.
 
-###Avoid creating junk drawers
+### Avoid creating junk drawers
 ![Junk drawer](images/junk-drawer.png)
 
 Vague class names, like `SessionManager` or `DataController`, should be avoided because such classes tend to become a junk drawer whose existence discourages developers from critically analyzing where to put new code. 
@@ -105,7 +105,7 @@ Junk drawer classes are large, disjointed, and complicated. This makes them diff
 
 As more and more code accumulates in a junk drawer, it becomes difficult to *not* put new code into it, because it contains so many things that need to be referenced.
 
-##Improving code in a business workplace
+## Improving code in a business workplace
 > It's easier to ask forgiveness than it is to get permission. - Grace Hopper
 
 Code can, and should, be improved.
